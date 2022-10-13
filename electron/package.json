@@ -6,6 +6,7 @@
   "scripts": {
     "build": "npx tsc",
     "prestart": "yarn run build",
+    "predev": "yarn run build",
     "dev": "NODE_ENV=development electron dist/main.js",
     "start": "NODE_ENV=production electron dist/main.js"
   },
